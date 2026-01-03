@@ -46,6 +46,14 @@ _(Please be aware that the demo is running on a free-tier server, so it may be s
     yarn install
     ```
 
+3.  Set up your environment variables:
+
+    ```bash
+    cp .env.example .env
+    ```
+
+    You will need to add a `MONGODB_URI` to your `.env` file.
+
 ### Running the Application
 
 1.  Start the development server:
