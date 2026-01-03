@@ -1,0 +1,43 @@
+{
+    "name": "@m00nbyte/domain-availability-check",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/m00nbyte/domain-availability-check.git"
+    },
+    "bugs": {
+        "url": "https://github.com/m00nbyte/domain-availability-check/issues"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "chart.js": "^4.5.1",
+        "moment": "^2.30.1",
+        "mongoose": "^9.1.1",
+        "next": "^16.1.1",
+        "react": "^19.2.1",
+        "react-chartjs-2": "^5.3.1",
+        "react-dom": "^19.2.1",
+        "sass": "^1.92.1"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3",
+        "@iconify/json": "^2.2.382",
+        "@iconify/tailwind4": "^1.1.1",
+        "@tailwindcss/postcss": "^4",
+        "@types/node": "^20",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "eslint": "^9",
+        "eslint-config-next": "15.5.2",
+        "eslint-plugin-simple-import-sort": "^12.1.1",
+        "tailwindcss": "^4.1.13",
+        "typescript": "^5"
+    }
+}
